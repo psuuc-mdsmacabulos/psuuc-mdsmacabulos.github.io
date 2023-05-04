@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+header {
+    background-color: black;
+    color: #fff;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+nav {
+    height: 75px;
+}
+nav h1 {
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: white;
+}
+nav ul {
+    float: right;
+    line-height: 75px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 7px 8px;
+}
+a:hover {
+    background-color: #f15048;
+    transition: 0.5s ease;
+}
+body{
+    background-image: url(heroimage.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    flex-direction: column;
+}
+.hireme {
+    width: 75%;
+    margin: auto;
+    color: white;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.hireme h1 {
+    font-size: 26px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+.hireme h1 span {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.hireme .btn {
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    margin-top: 3%;
+}
+.aboutme h1 {
+    margin-top: 20%;
+    font-size: 26px;
+    color: black;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutme p {
+    color: white;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills h1 {
+    margin-top: 3%;
+    font-size: 26px;
+    color: black;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+.skills ul li {
+    color: white;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background: #222222;
+    height: auto;
+    width: 100%;
+    font-family: "Roboto";
+    color: white;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+}
+div.container{
+    width: 100%;
+    margin: auto;
+}
+div.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.column#no1{
+    width: 50%;
+}
+div.column{
+    width: 25%;
+    padding: 0px 15px;
+}
+div.column h3{
+    font-size: 26px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+}
+div.column p{
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+    letter-spacing: 1.5px; 
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+div.column ul{
+    list-style: none;
+}
+div.column ul a{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+div.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
